@@ -25,9 +25,13 @@
 .foot{
     text-align: center;
     background-color: #2d466e;
-    height: 30px;
+    height: 35px;
     color: white;
     font-size: 12px;
+}
+.foot-text{
+    position: relative;
+    top: 8px;
 }
 .Picture1{
     float: left;
