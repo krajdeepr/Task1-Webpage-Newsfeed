@@ -1,0 +1,46 @@
+.News {
+    background-color:#2d466e;
+    color: white;
+    height:100px;
+  }
+#Heading1{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+#Heading2{
+    position: absolute;
+    left: 250px;
+    top: 30px;
+}
+.Total{
+    width: 70%;
+}
+.Side{
+    position: absolute;
+    right:40px;
+    top: 150px;
+   
+}
+.foot{
+    text-align: center;
+    background-color: #2d466e;
+    height: 30px;
+    color: white;
+    font-size: 12px;
+}
+.Picture1{
+    float: left;
+    width: 250px;
+    height: 210px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.Next{
+    position: relative;
+    left: 270px;
+    background-color:#d64542;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
