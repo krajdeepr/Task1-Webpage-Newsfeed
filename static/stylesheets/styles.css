@@ -1,50 +1,102 @@
-.News {
-    background-color:#2d466e;
+.news{
+    background-color:#283140;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     color: white;
     height:100px;
   }
-#Heading1{
+#news__heading1{
     position: absolute;
     top: 20px;
     left: 35px;
 }
-#Heading2{
+#news__heading2{
     position: absolute;
     left: 250px;
     top: 30px;
 }
-.Total{
+.total{
     width: 70%;
+    margin-bottom: 50px;
 }
-.Side{
+.total__picture{
+    float: left;
+    width: 170px;
+    height: 184px;
+    margin-top:5px;
+    margin-right:20px;
+    margin-bottom:10px;
+    background-color: #d0d0d0;
+}
+.total__heading{
+    color:#283140;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+.total__date{
+    position:relative;
+    bottom:15px;
+    font-size:11px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+.total__content{
+    position:relative;
+    bottom:15px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+.total__button{
+    position: relative;
+    bottom:10px;
+    background-color:#d64542;
+    margin-bottom:5px;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border: 0;
+}
+.side{
     position: absolute;
     right:40px;
-    top: 150px;
-   
+    top: 150px;  
+}
+.side__label{
+    font-size: 11px;
+    font-family: Verdana,Geneva,sans-serif;
+    position: relative;
+    bottom: 15px;
+}
+#side__select{
+    width: 300px;
+    height: 30px;
+}
+.side__label2{
+    font-size: 11px;
+    font-family: Verdana,Geneva,sans-serif;
+}
+.side__input{
+    width: 200px; 
+    height:30px; 
+    position: relative;
+    top: 15px;
+}
+.side__button{
+    width: 100px; 
+    height:36px; 
+    background-color: black; 
+    color: white;
+    position: relative;
+    top: 15px;
+    border: 0;
 }
 .foot{
     text-align: center;
-    background-color: #2d466e;
+    background-color: #283140;
     height: 35px;
     color: white;
     font-size: 12px;
 }
-.foot-text{
-    position: relative;
-    top: 8px;
+.foot__text{
+    position:relative;
+    top:8px;
 }
-.Picture1{
-    float: left;
-    width: 250px;
-    height: 210px;
-    margin-right: 20px;
-    border: 1px solid black;
-}
-.Next{
-    position: relative;
-    left: 270px;
-    background-color:#d64542;
-    color: white;
-    height: 30px;
-    width: 150px;
-}
+
+
+
